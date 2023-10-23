@@ -29,6 +29,7 @@
 <script setup lang="ts">
 //typeがないとエラーになる
 import type { Blog } from "~/types/blog";
+import { dateFormat } from "~/utils/dateFormat";
 const { params } = useRoute();
 const { data } = await useMicroCMSGetListDetail<Blog>({
   endpoint: "blogs",

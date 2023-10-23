@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import type { Blog } from "~/types/blog";
+import { dateFormat } from "~/utils/dateFormat";
 
 const { data } = await useMicroCMSGetList<Blog>({
   endpoint: "blogs",
