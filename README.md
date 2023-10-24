@@ -1,11 +1,14 @@
-# Nuxt 3 Minimal Starter
+# Nuxt3 + microCMS ブログ作成チュートリアル
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+## 環境
+- Node.js v18.16.0
+- Nuxt v3.8.0
+- nuxt-microcms-module  v3.0.2
+
+## Nuxtについて
+Nuxtは、Vue.jsを利用したフロントエンドとバックエンドの両方の機能を提供するフレームワークです。特に、自動インポート機能があり、`components` `composables` `utils` ディレクトリに作成されたファイルが自動インポートの対象になります。
 
 ## Setup
-
-Make sure to install the dependencies:
-
 ```bash
 # npm
 npm install
@@ -21,9 +24,6 @@ bun install
 ```
 
 ## Development Server
-
-Start the development server on `http://localhost:3000`:
-
 ```bash
 # npm
 npm run dev
@@ -39,9 +39,6 @@ bun run dev
 ```
 
 ## Production
-
-Build the application for production:
-
 ```bash
 # npm
 npm run build
@@ -71,5 +68,3 @@ yarn preview
 # bun
 bun run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
