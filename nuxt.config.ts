@@ -14,4 +14,8 @@ export default defineNuxtConfig({
     },
   },
 });
+
+console.log("MICROCMS_SERVICE_DOMAIN:", process.env.MICROCMS_SERVICE_DOMAIN);
+console.log("MICROCMS_API_KEY:", process.env.MICROCMS_API_KEY);
+
 // as anyでmicroCMSの型定義がないためエラーが出るので回避
